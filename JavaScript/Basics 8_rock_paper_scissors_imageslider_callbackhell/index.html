@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Rock paper scissors</h1>
+    <div id="choices">
+        <button onclick="playgame('rock')">👊</button>
+        <button onclick="playgame('paper')">✋</button>
+        <button onclick="playgame('scissors')">✌️</button>
+    </div>
+    <div id="playerdisplay">Player:</div>
+    <div id="computerdisplay">Computer:</div>
+    <div id="resultdisplay"></div>
+
+
+
+    <!-- image slider -->
+    <div class="slider">
+        <div class="slides">
+            <img class="slide" src="../Basics 4_diceroller_and_password//dice_images/1.png">
+            <img class="slide" src="../Basics 4_diceroller_and_password//dice_images/2.png">
+            <img class="slide" src="../Basics 4_diceroller_and_password//dice_images/3.png">
+        </div>
+        <button onclick="prevslide()" class="prev">&#10094</button>
+        <button onclick="nextslide()" class="next">&#10095</button>
+    </div>
+
+
+
+    <!-- callback hell -->
+    <script src="index.js"></script>
+</body>
+
+</html>

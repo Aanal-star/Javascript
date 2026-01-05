@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Aanal",
+        "age": "20",
+        "isEmployeed": false
+    },
+    {
+        "name": "Dhairya",
+        "age": "18",
+        "isEmployeed": false
+    },
+    {
+        "name": "Bhumika",
+        "age": "45",
+        "isEmployeed": true
+    },
+    {
+        "name": "Nilesh",
+        "age": "50",
+        "isEmployeed": true
+    }
+]
