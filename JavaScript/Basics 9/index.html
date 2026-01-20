@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokémon Finder</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- json fetch -->
-     <input type="text" id="pokemonname" placeholder="Enter Pokemon Name">
-     <button onclick="fetchData()">Fetch Pokemon</button><br>
-     <img src="" alt="pokemon sprints" id="pokemonsprints" style="display: none;">
+
+    <div class="container">
+        <h1>Pokémon Finder</h1>
+        <p>Fetch Pokémon data using PokéAPI</p>
+
+        <div class="controls">
+            <input type="text" id="pokemonname" placeholder="Enter Pokémon name">
+            <button onclick="fetchData()">Fetch Pokémon</button>
+        </div>
+
+        <img id="pokemonsprints" alt="Pokemon sprite">
+    </div>
+
     <script src="index.js"></script>
 </body>
 </html>
